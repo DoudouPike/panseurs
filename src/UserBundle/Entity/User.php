@@ -27,7 +27,7 @@ class User extends BaseUser
      *
      * @ORM\Column(name="trustscore", type="integer")
      */
-    private $trustscore;
+    private $trustscore = 0;
 
 
     /**
